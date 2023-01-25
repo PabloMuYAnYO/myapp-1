@@ -68,7 +68,6 @@ nav ul li a mark:hover {
 
 #seccion-contenido{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
