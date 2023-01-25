@@ -72,13 +72,17 @@ nav ul li a mark:hover {
   justify-content: center;
   align-items: center;
 }
-#seccion-contenido h1{
+
+#seccion-contenido article{
+  text-align: center;
+  margin: 2rem;
+}
+#seccion-contenido article h1{
   margin-top: .5rem;
   font-size: 18px;
   font-weight: bold;
-  
   }
-#seccion-contenido img{
+#seccion-contenido article img{
 width: 50%;
 
 }
