@@ -1,0 +1,14 @@
+Content-Type: text/html; charset=utf-8
+From: remitente@example.com
+To: destinatario@example.com
+Subject: asunto
+Message-ID: <99809245-bea2-1833-aa5d-31c33187fd2c@example.com>
+Content-Transfer-Encoding: 7bit
+Date: Wed, 08 Feb 2023 19:34:05 +0000
+MIME-Version: 1.0
+
+ 
+        <div> 
+        <p>Hola soy un mensaje.</p>
+        </div> 
+    
