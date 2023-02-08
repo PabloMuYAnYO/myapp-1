@@ -35,6 +35,7 @@ createTransport.sendMail(email, function (error, info) {
   if(error){ 
        console.log("Error al enviar email"); 
   } else{ 
+       console.log(info);
        console.log("Correo enviado correctamente"); 
   } 
   createTransport.close(); 
