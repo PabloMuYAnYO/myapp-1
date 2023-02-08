@@ -3,6 +3,8 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
 
 const indexRouter = require('./routes/index');
 const contactRouter = require('./routes/contact');
@@ -23,6 +25,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/contact', contactRouter);
 app.use('/about', aboutRouter);
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
